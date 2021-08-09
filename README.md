@@ -39,9 +39,10 @@ Naive Random oversampling and Smote Oversampling had the best balanced accuracy 
 
 - The Balanaced Random Forest Classifier has the best recall score. 
 
-3. Which model had the best geometric mean score?
+## Which model had the best geometric mean score?
 
 - The Balanced Random Forest Classifier has the best geometric mean score.
 
-4. What are the top ten features?
+## What are the top ten features?
+
 ![Screen Shot 2021-08-09 at 1 22 25 PM](https://user-images.githubusercontent.com/83780964/128748824-a6e5f7d9-5b3e-4f4a-ad52-563319bfa161.png)
