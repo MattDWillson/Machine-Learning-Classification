@@ -4,8 +4,7 @@ Tools: Jupyter Lab, Numpy, Pandas, imblearn, sklearn
 
 ## Overview
 
-- Credit risk assesment tool that utilizes machine learning techniques to predict credit risk. 
-- Credit risk is an inherently imbalanced classification problem (the number of good loans is much larger than the number of at-risk loans).
+- Credit risk assesment tool that uses machine learning classification to predict credit risk. 
 - Employs different techniques for training and evaluating models with imbalanced classes.
 - Utilizes the imbalanced-learn and Scikit-learn libraries to build and evaluate models using the two following techniques: Resampling and Ensemble Learning.
 
