@@ -23,8 +23,10 @@ The ensemble learning method required the same process of cleaning and preparing
 The ensemble learning techniques I employed were: imblearn balanced random forest classifier and the sklearn random forest classifier. The imblearn balanced random forest classifier had a higher balanced accuracy score than the sklearn random forest classifer. Both models performed poorly overall with low balanced accuracy scores. However, the sklearn random forest classifier had perfect precision and recall when predicting high credit risk.
 
 Top 10 Features
+
 ![Screen Shot 2021-08-09 at 1 22 25 PM](https://user-images.githubusercontent.com/83780964/128748824-a6e5f7d9-5b3e-4f4a-ad52-563319bfa161.png)
 
 Precision Recall Curve (Balanced Random Forest = blue '.' and Random forest = orange 'x')
-<img width="384" alt="Screen Shot 2021-08-13 at 8 35 48 PM" src="https://user-images.githubusercontent.com/83780964/129429230-629efc3d-de3d-4591-9fb5-890b8cb3abe6.png">
+
+<img width="384" alt="Screen Shot 2021-08-13 at 8 35 48 PM" src="https://user-images.githubusercontent.com/83780964/129429230-629efc3d-de3d-4591-9fb5-890b8cb3abe6.png"> 
 
