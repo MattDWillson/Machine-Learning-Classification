@@ -1,7 +1,6 @@
 # Credit Risk Predictor
-Tools: Jupyter Lab, Numpy, Pandas, imblearn, sklearn
 The algorithm employs multiple machine learning classification methods to predict credit risk. I used the imbalanced-learn and scikit-learn libraries to build and evaluate models using resampling and ensemble learning.
-
+Tools: Jupyter Lab, Numpy, Pandas, imblearn, sklearn
 ## Resampling
 The initial process required fetching and cleaning data. I utilized get_dummies and tbe sklearn label_encoder to modify columns that were previously strings into integers. Modifying the columns that were previously strings into numerical columnns allows you to prepare the data for the various classification methods. After modifying the columns into numerical columns I split the data into train and test sets using the sklearn train_test_split method. Next I scaled the data using the sklearn stanndard scaler. After this process I employed the various resampling methods. 
 
