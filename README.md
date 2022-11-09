@@ -4,7 +4,7 @@ The algorithm employs multiple machine learning classification methods to predic
 Tools: Jupyter Lab, Numpy, Pandas, imblearn, sklearn.
 
 ## Resampling
-The initial process required fetching and cleaning data. I utilized get_dummies and tbe sklearn label_encoder to modify columns that were previously strings into integers. Modifying the columns that were previously strings into numerical columnns allows you to prepare the data for the various classification methods. After modifying the columns into numerical columns I split the data into train and test sets using the sklearn train_test_split method. Next I scaled the data using the sklearn stanndard scaler. After this process I employed the various resampling methods. 
+The initial process required fetching and cleaning data. I utilized get_dummies and the sklearn label_encoder to modify columns that were previously strings into integers. Modifying the columns that were previously strings into numerical columnns allows you to prepare the data for the various classification methods. After modifying the columns into numerical columns I split the data into train and test sets using the sklearn train_test_split method. Next I scaled the data using the sklearn stanndard scaler. After this process I employed the various resampling methods. 
 
 The resampling techniques I employed were: simple logistic regression, naive random oversampling, SMOTE oversampling, ClusterCentroids undersampling, and SMOTEEN combination sampling. To determine which model performed the best, I conducted the following process for each method to evaluate the models: 
 - Calculated balanced accuracy score
