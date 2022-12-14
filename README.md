@@ -1,4 +1,9 @@
 # Credit Risk Predictor
+
+
+Credit risk is an inherently imbalanced classification problem (the number of good loans is much larger than the number of at-risk loans). Employs different techniques for training and evaluating models with imbalanced classes. Utilizes the imbalanced-learn and Scikit-learn libraries to build and evaluate models using the two following techniques: resampling and ensemble Learning.
+
+
 The algorithm employs multiple machine learning classification methods to predict credit risk. I used the imbalanced-learn and scikit-learn libraries to build and evaluate models using resampling and ensemble learning. 
 
 Tools: Jupyter Lab, Numpy, Pandas, imblearn, sklearn.
