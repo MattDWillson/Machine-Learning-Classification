@@ -1,15 +1,11 @@
 # Credit Risk Predictor
 
-
-Credit risk is an inherently imbalanced classification problem (the number of good loans is much larger than the number of at-risk loans). Employs different techniques for training and evaluating models with imbalanced classes. Utilizes the imbalanced-learn and Scikit-learn libraries to build and evaluate models using the two following techniques: resampling and ensemble Learning.
-
-
-The algorithm employs multiple machine learning classification methods to predict credit risk. I used the imbalanced-learn and scikit-learn libraries to build and evaluate models using resampling and ensemble learning. 
+This is a credit risk assessment tool that uses machine learning techniques to predict credit risk. Credit risk is an inherently imbalanced classification problem (the number of good loans is much larger than the number of at-risk loans). I utilized the imbalanced-learn and scikit-learn libraries to build and evaluate models using the two following techniques: resampling and ensemble Learning.
 
 Tools: Jupyter Lab, Numpy, Pandas, imblearn, sklearn.
 
 ## Resampling
-The initial process required fetching and cleaning data. I utilized get_dummies and the sklearn label_encoder to modify columns that were previously strings into integers. Modifying the columns that were previously strings into numerical columnns allows you to prepare the data for the various classification methods. After modifying the columns into numerical columns I split the data into train and test sets using the sklearn train_test_split method. Next I scaled the data using the sklearn stanndard scaler. After this process I employed the various resampling methods. 
+The initial process required fetching and cleaning data. I used get_dummies and the sklearn label_encoder to modify columns that were previously strings into integers. After modifying the columns into integers, I split the data into train and test sets using the sklearn train_test_split method. Next I scaled the data using the sklearn standard scaler. After this process, I employed the various resampling methods. 
 
 The resampling techniques I employed were: simple logistic regression, naive random oversampling, SMOTE oversampling, ClusterCentroids undersampling, and SMOTEEN combination sampling. To determine which model performed the best, I conducted the following process for each method to evaluate the models: 
 - Calculated balanced accuracy score
@@ -23,10 +19,10 @@ The resampling techniques I employed were: simple logistic regression, naive ran
 - Naive Random Oversampling: 0.9936781215845847 
 - SMOTE Oversampling: 0.9936781215845847 
 
-Each model had high precision and recall scores for predicting high risk. Each model had a low precision score for predicting low risk. In terms of overall performance the two oversampling methods outperformed the others. 
+Each model had high precision and recall scores when predicting high risk. Each model had a low precision score for predicting low risk. In terms of overall performance the two oversampling methods outperformed the others. 
 
 # Ensemble Learning
-The ensemble learning techniques I employed were: imblearn balanced random forest classifier and the sklearn random forest classifier. The imblearn balanced random forest classifier had a higher balanced accuracy score than the sklearn random forest classifer. Both models performed poorly overall with low balanced accuracy scores. However, the sklearn random forest classifier had perfect precision and recall when predicting high credit risk.
+The ensemble learning techniques I employed were: imblearn balanced random forest classifier and the sklearn random forest classifier. The imblearn balanced random forest classifier had a higher balanced accuracy score than the sklearn random forest classifer. Both models performed poorly overall with low balanced accuracy scores. However, the sklearn random forest classifier had perfect precision and recall when predicting high risk.
 
 Top 10 Features
 
